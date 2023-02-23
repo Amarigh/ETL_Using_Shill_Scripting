@@ -9,6 +9,7 @@ wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0
 
 # The script then extracts the .txt file using gunzip.
 gunzip -f web-server-access-log.txt.gz
+# sudo tar -xvf file.tar   
 
 # The .txt file contains the timestamp, latitude, longitude 
 # and visitor id apart from other data.
